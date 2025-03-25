@@ -5,7 +5,6 @@ A simple JavaScript quiz application with a countdown timer.
 ## Features
 - **Multiple Choice Questions**: Users answer from four options per question.
 - **Score Tracking**: Displays the final score at the end.
-- **Countdown Timer**: 30-minute timer that auto-submits when time is up.
 - **Restart Option**: Users can restart the quiz after completion.
 
 ## Technologies Used
@@ -14,17 +13,15 @@ A simple JavaScript quiz application with a countdown timer.
 - JavaScript (Vanilla JS)
 
 ## How It Works
-1. The quiz starts with a 30-minute countdown.
-2. Users select answers and submit each question.
-3. The quiz progresses until all questions are answered or time runs out.
-4. At the end, the final score is displayed.
+1. Users select answers and submit each question.
+2. The quiz progresses until all questions are answered or time runs out.
+3. At the end, the final score is displayed.
 
 ## Setup & Usage
 ```sh
 # Clone the repository
-git clone https://github.com/your-repo/quiz-app.git
+git clone https://github.com/bayramsoltan/quiz-app.git
 
-# Open index.html in a browser
 ```
 
 ## File Structure
@@ -32,7 +29,7 @@ git clone https://github.com/your-repo/quiz-app.git
 quiz-app/
 │── index.html      # Main HTML file
 │── styles.css      # Stylesheet (optional)
-│── script.js       # Quiz logic and timer
+│── script.js       # Quiz logic
 │── README.md       # Project documentation
 ```
 
